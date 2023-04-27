@@ -1,0 +1,44 @@
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+  
+input {
+    padding: 0.5rem;
+}
+  
+button {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+  
+.error {
+    color: red;
+    margin-top: 0.5rem;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+a {
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
