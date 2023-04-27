@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { useMediaQuery } from 'react-responsive';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import './App.scss';
 
@@ -7,8 +6,6 @@ function App() {
     const [url, setUrl] = useState('');
     const [shortenedUrls, setShortenedUrls] = useState([]);
     const [errorMessage, setErrorMessage] = useState('');
-
-    const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
 
     useEffect(() => {
         const storedUrls = JSON.parse(localStorage.getItem('shortenedUrls'));
